@@ -1,0 +1,49 @@
+--- a/CMakeModules/Findmisc.cmake
++++ b/CMakeModules/Findmisc.cmake
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 2.8.1)
++cmake_minimum_required (VERSION 3.10)
+ 
+ 
+
+--- a/CMakeModules/Findversioning.cmake
++++ b/CMakeModules/Findversioning.cmake
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 2.8.1)
++cmake_minimum_required (VERSION 3.10)
+ 
+ set (PACKAGE_NAME "versioning")
+ 
+
+--- a/CMakeModules/settings.cmake
++++ b/CMakeModules/settings.cmake
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 2.8.8)
++cmake_minimum_required (VERSION 3.10)
+ 
+ ENABLE_TESTING()
+ #CONFIGURE_FILE(${CMAKE_CURRENT_LIST_DIR}/CTestCustom.cmake ${CMAKE_CURRENT_BINARY_DIR}/CTestCustom.cmake)
+
+--- a/module_misc/CMakeLists.txt
++++ b/module_misc/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required (VERSION 2.8.8)
++cmake_minimum_required (VERSION 3.10)
+ 
+ 
+ set (PROJECTNAME "misc")
+
+--- a/scannerExtract/CMakeLists.txt
++++ b/scannerExtract/CMakeLists.txt
+@@ -18,7 +18,7 @@
+  # Copyright (C) 2015, Dominik Rueß; info@dominik-ruess.de
+  ######################################################################/
+ 
+-cmake_minimum_required (VERSION 2.8)
++cmake_minimum_required (VERSION 3.10)
+ 
+ set (PROJECTNAME "scannedImageExtractor")
+ project (${PROJECTNAME} CXX)
+-- 
+2.53.0
+
